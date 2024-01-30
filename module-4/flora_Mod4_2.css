@@ -1,19 +1,23 @@
 #container {
-	display: flex;
-	justify-content: space-around;
-	align-items: center;
-	flex-wrap: wrap;
-}
-.book {
-	width: 300px;
-	margin-bottom: 20px;
-}
-.book img {
-	width: 100%;
-	height: auto;
-	border: 
+    text-align: center;
 }
 
-h3{
+h1, h3, figcaption {
+    color: rgba(0, 0, 0, 0.8);
 	text-align: center;
+}
+
+#image-gallery {
+    margin-top: 10%; 
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.gallery-item {
+    text-align: center;
+}
+
+figcaption {
+    font-style: italic;
+    font-size: 0.75em;
 }

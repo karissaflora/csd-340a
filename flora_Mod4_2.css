@@ -1,0 +1,19 @@
+#container {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.book {
+	width: 300px;
+	margin-bottom: 20px;
+}
+.book img {
+	width: 100%;
+	height: auto;
+	border: 
+}
+
+h3{
+	text-align: center;
+}

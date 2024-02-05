@@ -1,5 +1,5 @@
 header {
-    background-color: #4CAF50;
+    background-color: #F88F50;
     color: white;
     padding: 20px;
     text-align: center;
@@ -13,7 +13,7 @@ h1 {
 #navbar {
     overflow: hidden;
     background-color: #333;
-    border-bottom: solid 15px #4CAF50;
+    border-bottom: solid 15px #F2E3D3;
 }
 
 #navbar a {
@@ -59,7 +59,7 @@ h1 {
 }
 
 footer {
-    background-color: #4CAF50;
+    background-color: #F88F50;
     position: absolute;
     bottom: 0;
     width: 100%;

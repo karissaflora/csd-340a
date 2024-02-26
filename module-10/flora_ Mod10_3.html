@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSD 340 Web Development with HTML and CSS</title>
+</head>
+<body>
+    <h1>Assignment 10.3: JavaScript - Part 2</h1>
+    <p>Click on the image to execute a JavaScript function:</p>
+    <img src="IMG_7382.jpeg" alt="Example Image" onclick="changeDisplay()" height="300" width="300">
+    
+    <script>
+        function changeDisplay() {
+            var paragraph = document.createElement("p");
+            paragraph.textContent = "You clicked the image!";
+            document.body.appendChild(paragraph);
+        }
+    </script>
+</body>
+</html>
